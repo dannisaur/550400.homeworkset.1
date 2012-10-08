@@ -61,27 +61,6 @@ its commit history graph (i.e., the graph portion of the output of
 \verb+git log --graph --oneline+).  Next, assume that 
 you are on \texttt{alt} branch. Draw its commit history graph.  
 
-\vskip.25in
-\noindent\textbf{Problem 2 (10 pts):}
-Assume that you are starting from ``scratch'' at the directory \verb+~/+.
-Provide a sequence of git/bash commands that yields a git folder and 
-\begin{itemize}
-\item configure your git with your name and your email address,
-\item set up an alias for each of the git remotes listed below:
-\begin{verbatim}
-git://github.com/nhlee/550400.stanza1.git 
-git://github.com/nhlee/550400.stanza2.git 
-git://github.com/nhlee/550400.stanza3.git 
-\end{verbatim}
-Assume that each remote contains exactly single commit with 
-a txt file for a single (different) stanza,
-\item pull to combine three stanzas of a poem,
-\item after the first pull, add the title of the poem,
-\item after the second and third pull, resolve the merge conflict,
-\item after resolving the third pull merge conflict, push the result
-  to your (newly created) remote repository. 
-\end{itemize}
-
 \begin{enumerate}
 \item mkdir hw1p1.git 
 \item cd hw1p1.git 
@@ -114,6 +93,52 @@ a txt file for a single (different) stanza,
 \item git checkout alt
 \item git log --graph --oneline
 \end{enumerate}
+
+\vskip.25in
+\noindent\textbf{Problem 2 (10 pts):}
+Assume that you are starting from ``scratch'' at the directory \verb+~/+.
+Provide a sequence of git/bash commands that yields a git folder and 
+\begin{itemize}
+\item configure your git with your name and your email address,
+\item set up an alias for each of the git remotes listed below:
+\begin{verbatim}
+git://github.com/nhlee/550400.stanza1.git 
+git://github.com/nhlee/550400.stanza2.git 
+git://github.com/nhlee/550400.stanza3.git 
+\end{verbatim}
+Assume that each remote contains exactly single commit with 
+a txt file for a single (different) stanza,
+\item pull to combine three stanzas of a poem,
+\item after the first pull, add the title of the poem,
+\item after the second and third pull, resolve the merge conflict,
+\item after resolving the third pull merge conflict, push the result
+  to your (newly created) remote repository. 
+\end{itemize}
+
+\begin{enumerate}
+\item mkdir hw1p2.git
+\item cd hw1p2.git
+\item git init .
+\item git remote add s1 git://github.com/nhlee/550400.stanza1.git
+\item git pull s1 master
+\item vi main.txt
+\item git add .
+\item git commit -m "Title added"
+\item git remote add s2 git://github.com/nhlee/550400.stanza2.git
+\item git pull s2 master
+\item vi main.txt
+\item git add .
+\item git commit -m "2nd stanza merged"
+\item git remote add s3 git://github.com/nhlee/550400.stanza3.git
+\item git pull s3 master
+\item vi main.txt
+\item git add .
+\item git commit -m "3rd stanza merged"
+\item git remote add origin https://github.com/tangdnn/550400.homeworkset.1.git
+\item git push origin master
+\item git remote rm origin
+\end{enumerate}
+
 
 \newpage
 \noindent\textbf{Problem 3 (40 pts):}
