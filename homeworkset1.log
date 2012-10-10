@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  8 OCT 2012 19:41
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  10 OCT 2012 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -304,9 +304,9 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 147.
- [3]
+ [3] [4]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
- [4]
+ [5]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
 
 (./homeworkset1.aux)
@@ -314,30 +314,26 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `homeworkset1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
  ) 
 Here is how much of TeX's memory you used:
- 6366 strings out of 493488
- 94493 string characters out of 3141326
- 194583 words of memory out of 3000000
+ 6367 strings out of 493488
+ 94499 string characters out of 3141326
+ 195583 words of memory out of 3000000
  9587 multiletter control sequences out of 15000+200000
  5018 words of font info for 19 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 32i,6n,49p,917b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,6n,49p,1094b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
 sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on homeworkset1.pdf (4 pages, 97705 bytes).
+Output written on homeworkset1.pdf (5 pages, 102121 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 58 named destinations out of 1000 (max. 500000)
+ 124 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
+ 59 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
